@@ -1,0 +1,21 @@
+base_url = "https://informalsystems.github.io/hermes-sdk-website"
+
+theme = "juice"
+
+compile_sass = false
+
+build_search_index = true
+
+[markdown]
+highlight_code = true
+
+[extra]
+
+juice_logo_path = "logo.png"
+
+juice_logo_name = "Hermes SDK"
+
+juice_extra_menu = [
+    { title = "Book", link = "https://patterns.contextgeneric.dev"},
+    { title = "GitHub", link = "https://github.com/contextgeneric"},
+]
