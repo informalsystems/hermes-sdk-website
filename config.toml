@@ -1,5 +1,7 @@
 base_url = "https://informalsystems.github.io/hermes-sdk-website"
 
+title = "Hermes SDK"
+
 theme = "juice"
 
 compile_sass = false
@@ -16,6 +18,5 @@ juice_logo_path = "logo.png"
 juice_logo_name = "Hermes SDK"
 
 juice_extra_menu = [
-    { title = "Book", link = "https://patterns.contextgeneric.dev"},
-    { title = "GitHub", link = "https://github.com/contextgeneric"},
+    { title = "GitHub", link = "https://github.com/informalsystems/hermes-sdk"},
 ]

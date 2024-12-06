@@ -1,0 +1,64 @@
+{% extends "juice/templates/index.html" %}
+
+{% block hero %}
+    <section class="text-center">
+        <h1 class="heading-text" style="font-size: 40px">
+            Modular Interchain Framework
+        </h1>
+        <h3 class="title-text">
+            <span style="color: rgb(8, 155, 8)">✓</span> Chain-Agnostic Implementations
+        </h3>
+        <h3 class="title-text">
+            <span style="color: rgb(8, 155, 8)">✓</span> Heterogeneous Blockchain Library
+        </h3>
+        <h3 class="title-text">
+            <span style="color: rgb(8, 155, 8)">✓</span> Multi-Chain IBC Relayer
+        </h3>
+        <h3 class="title-text">
+            <span style="color: rgb(8, 155, 8)">✓</span> Flexible Architecture
+        </h3>
+        <h3 class="title-text">
+            <span style="color: rgb(8, 155, 8)">✓</span> Powered by Rust and Context-Generic Programming
+        </h3>
+    </section>
+    <img class="hero-image" style="width: 50%" src="/logo.png">
+
+    <div class="explore-more text"
+        onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
+        Explore More ⇩
+    </div>
+    <style>
+        .hero section {
+            padding: 0 5rem;
+        }
+
+        @media screen and (max-width: 768px) {
+            .hero section {
+                padding: 0 2rem;
+            }
+
+            .hero-image {
+                display: none
+            }
+        }
+    </style>
+{% endblock hero %}
+
+{% block sidebar %}
+{% endblock sidebar %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="/favicon.png" />
+{% endblock favicon %}
+
+{% block footer %}
+<footer>
+    <small class="subtext" style="text-align: center;">
+        <a href="https://informal.systems">Informal Systems</a> © 2024
+        <br />
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">
+            CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt="">
+        </a>
+    </small>
+</footer>
+{% endblock footer %}
